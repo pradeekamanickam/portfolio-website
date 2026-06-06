@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact — Pradeeka E M</title>
+  <meta name="description" content="Contact Pradeeka for internships and collaborations.">
+  <link rel="stylesheet" href="/css/styles.css">
+  <script defer src="/js/script.js"></script>
+  <link rel="canonical" href="/contact.html">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header role="banner" class="site-header">
+    <div class="container">
+      <h1 class="site-title">Contact</h1>
+      <nav role="navigation" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/projects.html">Projects</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" role="main" class="container">
+    <section aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Send a message</h2>
+      <form id="contactForm" action="#" method="post" novalidate aria-describedby="form-instructions">
+        <p id="form-instructions">All fields required. We'll respond to your email.</p>
+        <fieldset>
+          <legend>Contact information</legend>
+          <label for="name">Full name</label>
+          <input id="name" name="name" type="text" required aria-required="true">
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required aria-required="true">
+
+          <label for="subject">Subject</label>
+          <input id="subject" name="subject" type="text" required aria-required="true">
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" required aria-required="true"></textarea>
+        </fieldset>
+
+        <div class="form-actions">
+          <button type="submit">Send message</button>
+        </div>
+
+        <div id="formStatus" role="status" aria-live="polite" class="sr-only"></div>
+      </form>
+
+      <section aria-labelledby="direct-contact">
+        <h3 id="direct-contact">Direct contact</h3>
+        <address>
+          <p>Email: <a href="mailto:pradeekamanickam@gmail.com">pradeekamanickam@gmail.com</a></p>
+          <p>Phone: <a href="tel:+919342525532">+91 93425 25532</a></p>
+        </address>
+      </section>
+    </section>
+  </main>
+
+  <footer role="contentinfo" class="site-footer">
+    <div class="container">
+      <p><a href="/index.html">Back to home</a></p>
+    </div>
+  </footer>
+</body>
+</html>
